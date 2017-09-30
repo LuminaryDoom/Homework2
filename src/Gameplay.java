@@ -35,7 +35,7 @@ public class Gameplay {
            enemyHealth -= (damage*muliplier);
            if(enemyHealth <= 0) enemyHealth =0;
            System.out.println("The "+enemy+" has "+enemyHealth+" hit points left");
-          if(enemyHealth == 0)
+          if(enemyHealth == 0)T
           {
               System.out.println("You have landed the killing blow Battle mode is over");
               break;
